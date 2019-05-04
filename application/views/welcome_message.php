@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 	img{
 		width: 90%;
-		max-width: 400px;
+		max-width: 350px;
 	}
 	</style>
 </head>
@@ -80,7 +80,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div id="container">
 	<div id="centered">
-		<h1 style="text-align: center; color: #6d7f8f; padding-bottom: 20px">Este será tu espacio!</h1>
+		<h1 style="text-align: center; color: #6d7f8f; padding-bottom: 20px">¡ESTE SERÁ TU ESPACIO!</h1>
 		
 		<div id="body" style="text-align: center;">
 			<img src="assets/img/logo/logo1.jpg" alt="ECAP Logo">
