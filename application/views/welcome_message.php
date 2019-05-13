@@ -52,11 +52,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 
 	p.footer {
-		font-size: 11px;
+		text-align: center;
+		color: #6d7f8f;
+		margin-top: 0;
+	}
+
+	p.construccion{
 		border-top: 1px solid #D0D0D0;
-		line-height: 17px;
-		padding: 15px 10px 0 10px;
 		margin: 20px 0 0 0;
+		padding: 15px 10px 0 10px;
 		text-align: center;
 		color: #6d7f8f;
 	}
@@ -83,8 +87,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<h1 style="text-align: center; color: #6d7f8f; padding-bottom: 20px">¡ESTE SERÁ TU ESPACIO!</h1>
 		
 		<div id="body" style="text-align: center;">
-			<img src="assets/img/logo/logo1.jpg" alt="ECAP Logo">
+			<img src="assets/img/logo/logo2.jpg" alt="ECAP Logo">
 		</div>
+		
+		<p class="construccion">PÁGINA EN CONSTRUCCIÓN</p>
 		
 		<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <br> Designing by Aldo Alcalá</p>
 	</div>
