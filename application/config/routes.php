@@ -49,6 +49,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+
+//RUTAS DEFINITIVAS
 $route['default_controller'] = 'welcome';
+
+// RUTAS DE PRUEBAS
+$route['control_pagos'] = 'pages/a/admon-control_pagos';
+$route['resultados_semestre'] = 'pages/a/alumno-evaluacion_semestral';
+$route['asistencia'] = 'pages/a/alumno-asistencia';
+$route['info'] = 'pages/a/alumno-informacion_general';
+$route['galeria'] = 'pages/a/alumno-galeria';
+
+// RUTAS DEL SISTEMA
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
