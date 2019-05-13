@@ -4,24 +4,24 @@
 </header>
 <main class="container">
 	<!-- INFORMACIÓN GENERAL A LA VISTA -->
-	<div class="row">
-		<div class="col-sm">
+	<div class="row" id="asistencia_gral">
+		<div class="col">
 			<strong>Total</strong>
 			<p class="p1">52</p>
 		</div>
-		<div class="col-sm">
+		<div class="col">
 			<strong>Asistidas</strong>
 			<p class="p1">32</p>
 		</div>
-		<div class="col-sm">
+		<div class="col">
 			<strong>Justificadas</strong>
 			<p class="p1">10</p>
 		</div>
-		<div class="col-sm">
+		<div class="col">
 			<strong>Faltas</strong>
 			<p class="p1">5</p>
 		</div>
-		<div class="col-sm">
+		<div class="col">
 			<strong>Pospuestas</strong>
 			<p class="p1">5</p>
 		</div>
@@ -44,84 +44,86 @@
 	</form>
 
 	<!-- TABLA DE ASISTENCIAS Y CLASES DEL SEMESTRE -->
-	<table class="table">
-		<thead>
-			<th>Día</th>
-			<th>Mes</th>
-			<th>Tema Observado</th>
-			<th>Estado</th>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Asistida</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Falta</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Justificada</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Asistida</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Recorrida</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Asistida</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Falta</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Asistida</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Justificada</td>
-			</tr>
-			<tr>
-				<td>Miércoles - 10</td>
-				<td>Enero</td>
-				<td>Intervalos y Canción 1</td>
-				<td>Recorrida</td>
-			</tr>
-		</tbody>
-	</table>
+	<div class="table-responsive">
+		<table class="table">
+			<thead>
+				<th>Día</th>
+				<th>Mes</th>
+				<th>Tema Observado</th>
+				<th>Estado</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Asistida</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Falta</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Justificada</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Asistida</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Recorrida</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Asistida</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Falta</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Asistida</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Justificada</td>
+				</tr>
+				<tr>
+					<td>Miércoles - 10</td>
+					<td>Enero</td>
+					<td>Intervalos y Canción 1</td>
+					<td>Recorrida</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 
 	<!-- ZONA PARA ACLARACIONES DE ALGUN PARÁMETRO -->
 	<form id="evaluacion_aclaraciones">
 		<h3>¿Necesitas alguna aclaración?</h3>
 		<div class="row">
-			<div class="col"><input class="form-control" type="text" placeholder="Fecha"></div>
-			<div class="col"><textarea class="form-control" placeholder="Tu pregunta aquí..."></textarea></div>
-			<div class="col"><input class="form-control" type="submit" placeholder="Consultar"></div>
+			<div class="col-md"><input class="form-control" type="text" placeholder="Fecha"></div>
+			<div class="col-md"><textarea class="form-control" placeholder="Tu pregunta aquí..."></textarea></div>
+			<div class="col-md"><input class="form-control" type="submit" placeholder="Consultar"></div>
 		</div>
 	</form>
 </main>

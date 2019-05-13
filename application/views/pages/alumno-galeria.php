@@ -44,8 +44,6 @@
 </main>
 
 <style>
-	#imagenes img{ max-width: 100%; max-height: 100% }
-	#imagenes>div{ padding: 10px 10px; }
-	#videos iframe{ max-width: 100%; max-height: 100% }
-	#videos>div{ padding: 10px 10px; }
+	#imagenes img{ max-width: 100%; max-height: 100%; padding: 10px 0px; }
+	#videos iframe{ max-width: 100%; max-height: 100%; padding: 10px 0px; }
 </style>
