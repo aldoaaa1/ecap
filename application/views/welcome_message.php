@@ -77,6 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	img{
 		width: 90%;
 		max-width: 350px;
+		margin: 15vh 0px;
 	}
 	</style>
 </head>
