@@ -1,6 +1,7 @@
 <header class="container">
 	<h3>Tu información general</h3>
 	<p>Aldo Alcalá</p>	
+	<p>Matricula 37</p>
 </header>
 <main class="container">
 	<div class="row">

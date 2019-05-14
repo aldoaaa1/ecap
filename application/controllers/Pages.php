@@ -20,9 +20,8 @@
 		}
 
 		function a($a){
-			$data['modules_ubication'] = 'modules/'.$a.'/';
 			$this->load->view('templates/header.php');
-			$this->load->view('pages/'.$a, $data);
+			$this->load->view('pages/'.$a);
 			$this->load->view('templates/footer.php');
 		}
 

@@ -54,11 +54,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 
 // RUTAS DE PRUEBAS
-$route['control_pagos'] = 'pages/a/admon-control_pagos';
-$route['resultados_semestre'] = 'pages/a/alumno-evaluacion_semestral';
-$route['asistencia'] = 'pages/a/alumno-asistencia';
-$route['info'] = 'pages/a/alumno-informacion_general';
-$route['galeria'] = 'pages/a/alumno-galeria';
+	// Rutas para Directivos
+	$route['usuarios_plus'] = 'pages/a/admon_plus-usuarios';
+
+	// Rutas de Administradores
+	$route['control_pagos'] = 'pages/a/admon-control_pagos';
+	$route['usuarios'] = 'pages/a/admon-usuarios';
+	$route['tickets'] = 'pages/a/admon-tickets';
+
+	// Rutas de Alumnos
+	$route['resultados_semestre'] = 'pages/a/alumno-evaluacion_semestral';
+	$route['asistencia'] = 'pages/a/alumno-asistencia';
+	$route['info'] = 'pages/a/alumno-informacion_general';
+	$route['galeria'] = 'pages/a/alumno-galeria';
+
+	// Rutas Generales
+	$route['login'] = 'pages/a/general-login';
 
 // RUTAS DEL SISTEMA
 $route['404_override'] = '';

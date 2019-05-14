@@ -9,5 +9,6 @@
 	<link rel="stylesheet" href="assets/plugins/bootstrap_4/bootstrap.css">
 	<link rel="stylesheet" href="assets/plugins/sweetalert/sweetalert2.css">
 	<link rel="stylesheet" href="assets/css/general.css">
+	<script src="assets/plugins/jquery/jquery.js"></script>
 </head>
 <body class="fadeOnLoad">
