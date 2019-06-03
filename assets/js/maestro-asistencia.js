@@ -5,9 +5,9 @@ $( '#switch-id' ).on( 'click', function() {
     		Swal.fire({
 				  type: 'success',
 				  title: '¡Excelente!',
-				  text: 'La asistencia se registro correctamente!',
+				  text: 'La asistencia se registró correctamente!',
 				  showConfirmButton: false,
-  				timer: 1000
+  				timer: 2500
 				}).then(function(){
 					window.location.href = base_url;
 				})

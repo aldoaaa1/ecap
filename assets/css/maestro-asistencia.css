@@ -117,8 +117,8 @@ body{ margin: 0; padding: 0 !important; }
 }
 
 .contenedor{
-  width: 100%; max-width: 500px;
-  height: 100vh; max-height: 402px;
+  width: 100%; max-width: 650px;
+  height: 100vh; max-height: 400px;
   background-color: var(--primary);
   text-align: center;
   border-radius: 80px;
@@ -135,14 +135,14 @@ body{ margin: 0; padding: 0 !important; }
 }
 .border-time{
   border-radius: 50%;
-  width: 70%;
-  height: 87%;
+  width: 330px;
+  height: 330px;
   margin: auto;
   background-color: transparent;
-  border-top: 15px solid var(--primary);
-  border-right: 15px solid var(--secondary);
-  border-bottom: 15px solid var(--secondary);
-  border-left: 15px solid var(--secondary);
+  border-top: 18px solid var(--primary);
+  border-right: 18px solid var(--secondary);
+  border-bottom: 18px solid var(--secondary);
+  border-left: 18px solid var(--secondary);
   animation-iteration-count: infinite;
   animation-timing-function: ease; 
   animation-duration: 1.5s;
@@ -178,12 +178,13 @@ body{ margin: 0; padding: 0 !important; }
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 650px){
   .border-time{
     width: 70px; height: 70px;
     position: absolute;
     top: 20%;
     left: 43%;
+    border-width: 12px;
   }
   .contenedor{
     width: 100vw; height: 100vh; max-height: none;
