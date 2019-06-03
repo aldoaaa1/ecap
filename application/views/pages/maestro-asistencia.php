@@ -10,7 +10,7 @@
 				  <input type="checkbox" class="switch" id="switch-id">
 				  <label for="switch-id"></label>
 				</span>
-				<h4>Carlos Castro</h4>
+				<h4>Nombre Alumno</h4>
 				<p class="text-danger retraso" style="margin-bottom: 0;">5min de retraso</p>
 			</div>
 		</div>

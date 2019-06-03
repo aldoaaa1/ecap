@@ -2,7 +2,15 @@ $( '#switch-id' ).on( 'click', function() {
     function alerta_seleccionado() {
     	$('#maestro-recordatorio').modal('show');
     	$('#maestro-recordatorio').on('hidden.bs.modal', function () {
-			  location.reload();
+    		Swal.fire({
+				  type: 'success',
+				  title: '¡Excelente!',
+				  text: 'La asistencia se registro correctamente!',
+				  showConfirmButton: false,
+  				timer: 1000
+				}).then(function(){
+					window.location.href = base_url;
+				})
 			})
     }
     function alerta_deseleccionado() {
