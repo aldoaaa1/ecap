@@ -62,9 +62,13 @@ $route['default_controller'] = 'welcome';
 	$route['usuarios'] = 'pages/a/admon-usuarios';
 	$route['tickets'] = 'pages/a/admon-tickets';
 
+	// Rutas de Maestros
+	$route['asistencia'] = 'pages/a/maestro-asistencia';
+
+
 	// Rutas de Alumnos
 	$route['resultados_semestre'] = 'pages/a/alumno-evaluacion_semestral';
-	$route['asistencia'] = 'pages/a/alumno-asistencia';
+	$route['asistencias'] = 'pages/a/alumno-asistencia';
 	$route['info'] = 'pages/a/alumno-informacion_general';
 	$route['galeria'] = 'pages/a/alumno-galeria';
 
